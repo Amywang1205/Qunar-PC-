@@ -1,0 +1,39 @@
+.icon,
+.line,
+.discount .nor,
+.special_now .tri,
+.main_con .content,
+.head .inf .tri,
+.try .spec .long_l,
+.try .spec .short_l{
+	overflow: hidden;
+}
+.clearfix{
+	zoom:1;
+}
+.mailbox,
+.arrow,
+.flag{
+	vertical-align: middle;
+	margin-right:4px;
+}
+.place .dep,
+.place .arr,
+.date .date1,
+.date .date2{
+	margin-bottom: 13px;
+}
+#main .name{
+	padding-top:4px;
+}
+.note .contact .icon{
+	margin-right:4px;
+	vertical-align: 3px;
+}
+.mar_r10{
+	display: inline;
+}
+.sheet .fh_left input{
+	vertical-align: 1px;
+}
+

@@ -1,0 +1,166 @@
+/*sprite*/
+.ticket .check_icon{
+	background-position: -19px -50px;
+}
+.ticket .change_icon{
+	background-position: -33px -50px;
+}
+/*sprite end*/
+/*public*/
+.ticket .inland,
+.ticket .inter,
+.ticket .check,
+.ticket .change,
+.sheet_bottom .search{
+	cursor:pointer;
+}
+/*public end*/
+.ticket{
+	padding-right:20px;
+}
+.ticket .head{
+	width:602px;
+	padding-top:4px;
+	border-bottom:1px solid #97d3d9;	
+}
+.ticket .inland,
+.ticket .inter{
+	font-size:14px;
+	line-height:40px;
+	padding-left:21px;
+	padding-right:20px;	
+}
+.ticket .head_left .active{
+	font-weight: bold;
+	color:#3f3f3f;
+	border-bottom: 2px solid #088db5;
+	margin-bottom: -1px;
+}
+.ticket .head_right{
+	padding-top:14px;
+}
+.ticket .check{
+	margin-right:15px;
+}
+.ticket .check_icon,
+.ticket .change_icon{
+	margin-right:4px;
+}
+.ticket .check_icon{
+	width: 14px;
+	height:13px;	
+}
+.ticket .change_icon{
+	width:12px;
+	height:15px;
+}
+.ticket .sheet{
+	background-color:#f4fbfc;
+	padding:10px 30px 20px 30px;
+}
+.ticket .sheet .con_left{
+	width:262px;
+}
+.ticket .sheet .ret{
+	height:40px;
+	line-height:40px;
+}
+.ticket .sheet .radio_text{
+	margin-right:16px;
+	vertical-align: 2px;
+}
+.ticket .sheet .text{
+	width:204px;
+	height:35px;
+	line-height:36px;
+	padding-left:34px;
+	z-index:10;
+	border:1px solid #ccc;
+}
+.place .dep,
+.place .arr,
+.date .date1,
+.date .date2{
+	margin-bottom: 15px;
+	width:240px;
+	position: relative;
+}
+.dep .dep_place,
+.arr .arr_place,
+.day,.line_box,
+.arr .change,
+.canlder,
+.con_right .date1 .day_text{
+	position:absolute;
+}
+.dep .text,.date .text{
+	font-size:14px;
+	font-weight:bold;
+}
+.dep .dep_place,
+.arr .arr_place,.day{	
+	left:6px;
+	top:9px;
+}
+.arr .text{
+	color:#999;
+}
+.line_box{
+	width:13px;
+	right:-13px;	
+}
+.dep .line_box{
+	height:17px;
+	border-top:1px solid #bbb;
+	border-right:1px solid #bbb;	
+	bottom: 0px;	
+}
+.arr .line_box{	
+	height:16px;
+	border-bottom:1px solid #bbb;
+	border-right:1px solid #bbb;
+	top: 5px;
+}
+.arr .change{
+	width:15px;
+	line-height:16px;
+	background-color: #999;
+	color:#fff;
+	text-align: center;
+	top:-13px;
+	right:-22px;
+}
+.canlder{	
+	top:12px;
+	right:6px;
+}
+.con_right .tips{
+	width:240px;
+	line-height:38px;
+	text-align: right;
+	color:#1cafc5;
+	font-weight: bold;
+}
+.con_right .date1 .day_text{
+	right:26px;
+	top:8px;
+}
+.date .date2{
+	opacity: 0.7;
+	filter:alpha(opacity=70);	
+}
+.sheet_bottom .search{
+	margin-bottom: 1px;
+	width:130px;
+	height:38px;
+	background-color:#ff5722;
+	border:1px solid #ff5722;
+	border-radius: 2px;
+	font-size:18px;
+	color:#fff;
+	line-height:38px;
+}
+.sheet_bottom .search:hover{
+	color:#ff5722;
+	background-color: #fff;
+}
